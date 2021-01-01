@@ -1,0 +1,17 @@
+.app {
+  min-height: 100vh;
+}
+
+.light {
+
+}
+
+.dark {
+  
+}
+
+/* background: linear-gradient(to right, hsl(192, 100%, 67%) 0%, hsl(280, 87%, 65%) 100%); */
+
+.test {
+  margin: 0;
+}
