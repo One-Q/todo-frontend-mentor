@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
+import TodoInput from './components/Todo/TodoInput';
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
@@ -15,6 +16,7 @@ function App() {
       <div className="banner" />
       <div className="container">
         <Header {...{ theme, changeTheme }} />
+        <TodoInput />
       </div>
     </div>
   );
